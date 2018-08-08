@@ -9,7 +9,7 @@
 
 
 
-#APP Laravel 5.6 - WordPress CRUD usando el API-REST v2
+# APP Laravel 5.6 - WordPress CRUD usando el API-REST v2
 
 Aplicación Laravel que realiza las operaciones básicas de CRUD (Create - Read - Update - Delete) sobre los posts de cualquier sitio WordPress, utilizando el [WP REST API v2](http://v2.wp-api.org/)
 
@@ -71,7 +71,7 @@ IMPORTEATE: Tanto el usuario como el password son encriptados con base64_encode 
     protected $password = 'pass'; // password de wordpress
 ```
 
-##Screenshots
+## Screenshots
 
 #### Index
 
