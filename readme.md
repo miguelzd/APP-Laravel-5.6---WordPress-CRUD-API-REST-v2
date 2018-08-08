@@ -8,18 +8,20 @@
 </p>
 
 
-##APP Laravel 5.6 - WordPress CRUD usando el API-REST v2
+
+#APP Laravel 5.6 - WordPress CRUD usando el API-REST v2
 
 Aplicación Laravel que realiza las operaciones básicas de CRUD (Create - Read - Update - Delete) sobre los posts de cualquier sitio WordPress, utilizando el [WP REST API v2](http://v2.wp-api.org/)
 
 - composer.json
 
+```
     "php": "^7.1.3",
     "fideloper/proxy": "^4.0",
     "guzzlehttp/guzzle": "~6.0",
     "laravel/framework": "5.6.*",
     "laravel/tinker": "^1.0"
-
+```
 
 NOTA: Se requiere que tenga instalado y habilitado en su sitio Wordpress el siguiente complemento para poder autenticarse  y ejecutar peticiones [ POST/DELETE ]
 
@@ -61,26 +63,31 @@ Configure el usuario, password y la URL del sitio Wordpress al que desea conecta
 
 IMPORTEATE: Tanto el usuario como el password son encriptados con base64_encode antes del envío de la solicitud en el header de la petición. 
 
--Path: app/Http/Controllers/BlogController.php
+- Path: app/Http/Controllers/BlogController.php
 
+```
     protected $base_uri = 'http://wordpress.localhost'; // URL base del sitio
     protected $username = 'user'; // username de wordpress
     protected $password = 'pass'; // password de wordpress
-
+```
 
 ##Screenshots
 
-Index
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/index.png" width="250" alt="Index">
+#### Index
 
-New
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/new.png" width="250" alt="New">
+<img src="http://miguelzdanovich.com/img/demo-app-laravel/index.png" width="350" alt="Index">
 
-Edit
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/edit.png" width="250" alt="Edit">
+#### New
 
-Error
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/error.png" width="250" alt="Error">
+<img src="http://miguelzdanovich.com/img/demo-app-laravel/new.png" width="350" alt="New">
+
+#### Edit
+
+<img src="http://miguelzdanovich.com/img/demo-app-laravel/edit.png" width="350" alt="Edit">
+
+#### Error
+
+<img src="http://miguelzdanovich.com/img/demo-app-laravel/error.png" width="350" alt="Error">
 
 ## License
 
