@@ -75,19 +75,19 @@ IMPORTEATE: Tanto el usuario como el password son encriptados con base64_encode 
 
 #### Index
 
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/index.png" width="350" alt="Index">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/index.png" width="350" alt="Index">
 
 #### New
 
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/new.png" width="350" alt="New">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/new.png" width="350" alt="New">
 
 #### Edit
 
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/edit.png" width="350" alt="Edit">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/edit.png" width="350" alt="Edit">
 
 #### Error
 
-<img src="http://miguelzdanovich.com/img/demo-app-laravel/error.png" width="350" alt="Error">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/error.png" width="350" alt="Error">
 
 ## License
 
