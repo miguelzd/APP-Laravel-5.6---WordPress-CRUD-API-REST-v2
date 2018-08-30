@@ -9,7 +9,6 @@
     <div class="page-description">
         <h2>Whoopps! something went wrong :(</h2>
         {{ $exception->getMessage() }}
-        <h4>{{ $exception->getMessage(['code']) }}</h4>
     </div>
     <br>
     <div>

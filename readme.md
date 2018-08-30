@@ -31,7 +31,8 @@ NOTA: Se requiere que tenga instalado y habilitado en su sitio Wordpress el sigu
 
 Este complemento agrega Autenticación básica a un sitio de WordPress.
 
-NOTA: Tenga en cuenta que este complemento requiere el envío de su nombre de usuario y contraseña con cada
+**Importante:** 
+Tener en cuenta que este complemento requiere el envío de su nombre de usuario y contraseña con cada
 solicitud, y solo debe usarse a través de conexiones con seguridad SSL o para
 desarrollo y prueba. Sin SSL, recomiendo utilizar 
 [OAuth versión 1 o 2 ] -[OAuth1](https://github.com/WP-API/OAuth1)   controlador de autenticación en entornos de producción.
@@ -39,14 +40,32 @@ desarrollo y prueba. Sin SSL, recomiendo utilizar
 ## Instalación
 
 1. Descargue e instale el plugin en el directorio /wp-content/plugins de su sitio wordpress
- - [WP-API / Basic-Auth](https://github.com/WP-API/Basic-Auth)
+ - [WP-API / Basic-Auth / gitHub project](https://github.com/WP-API/Basic-Auth)
+ - [WP-API / Basic-Auth / WordPress Plugin](https://es.wordpress.org/plugins/wp-basic-auth/)
 
-2. Habilitar el plugin desde administrador de Wordpress
+2. Habilitar el plugin desde administrador de Wordpress y activalo.
+
+3. Instala las dependencias del proyecto Laravel, ejecutando: 
+
+```
+ npm install
+```
+
+```
+ composer install
+```
+
+## Ejecución
+Por último, accede al directorio del proyecto laravel y ejecuta el server de desarrollo desde la consola con el comando **"php artisan serve"**
+
+```
+ blog git:(master) ✗ php artisan serve
+```
 
 
-## GuzzleHttp\Client
-La aplicación requiere del cliente GuzzleHttp para que funcione correctamente y pueda conectarse al sitio Wordpress.
-Aquí te dejo el link para su descarga y documentación.
+##  Aprende más sobre GuzzleHttp\Client
+La aplicación requiere del cliente **GuzzleHttp** para que funcione correctamente y pueda conectarse al sitio Wordpress.
+Aquí te dejo el link para su descarga y documentación, pero no es necesario que la instales ya que al descargar las dependencias del proyecto el mismo se instalará automáticamente. 
 
 - [GuzzleHttp\Client](http://docs.guzzlephp.org/en/stable/overview.html)
 
@@ -57,37 +76,55 @@ composer require guzzlehttp/guzzle:~6.0
 ## Modo de Uso
 - Por default los usuarios WordPress Administrador/Autor/Editor tienen permisos de escritura.
 - Por default los usuarios WordPress Colaborador/Suscriptor solo tienen permisos de lectura. 
-- Importante: las peticiones GET no requiere user/pass solo peticiones de tipo POST/DELETE
+- Importante: las peticiones **GET** no requiere user/pass solo peticiones de tipo **POST** y **DELETE**
 
-Configure el usuario, password y la URL del sitio Wordpress al que desea conectarse en el controlador BlogController.php
+Configure el usuario, password y la URL del sitio Wordpress al que desea conectarse en el controlador **BlogController.php**
 
-IMPORTEATE: Tanto el usuario como el password son encriptados con base64_encode antes del envío de la solicitud en el header de la petición. 
+**IMPORTEATE:** Tanto el usuario como el password son encriptados con base64_encode antes del envío de la solicitud en el header de la petición. 
 
 - Path: app/Http/Controllers/BlogController.php
 
 ```
     protected $base_uri = 'http://wordpress.localhost'; // URL base del sitio
-    protected $username = 'user'; // username de wordpress
-    protected $password = 'pass'; // password de wordpress
+    protected $username = 'wpadmin'; // username de wordpress
+    protected $password = 'wpadmin'; // password de wordpress
 ```
+#### Nota: 
+En el ejemplo uso el usuario  **wpadmin** que tiene permisos de **read/write** si quieres pueden cambiarlo por otro que sea de tipo Suscriptor y solo permisos de read. 
+
 
 ## Screenshots
 
+#### Instalar Plugin  WordPress
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/plugin-2-min.png" width="100%" alt="Plugin WordPress">
+
+#### Plugin WordPress 
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/plugin-1-min.png" width="100%" alt="Plugin WordPress">
+
 #### Index
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/index.png" width="350" alt="Index">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/index.png" width="60%" alt="Index">
 
 #### New
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/new.png" width="350" alt="New">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/new.png" width="60%" alt="New">
 
 #### Edit
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/edit.png" width="350" alt="Edit">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/edit.png" width="60%" alt="Edit">
 
 #### Error
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/error.png" width="350" alt="Error">
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/error.png" width="60%" alt="Error">
+
+#### Lista de post
+
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/cap-1-min.png" width="100%" alt="Error">
+
+#### Editar Post
+
+<img src="http://miguelzdanovich.com/github/demo-app-laravel/cap-2-min.png" width="100%" alt="Error">
+
 
 ## License
 

@@ -16,8 +16,8 @@ class BlogController extends Controller
      */
     protected $client;
     protected $base_uri = 'http://wordpress.local'; // URL base del sitio
-    protected $username = 'user'; // username de wordpress
-    protected $password = 'user'; // password de wordpress
+    protected $username = 'wpadmin'; // username de wordpress
+    protected $password = 'wpadmin'; // password de wordpress
 
     /**
      * Create a new GuzzleHttp\Client
