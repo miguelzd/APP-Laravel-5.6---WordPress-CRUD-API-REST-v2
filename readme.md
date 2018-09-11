@@ -96,34 +96,34 @@ En el ejemplo uso el usuario  **wpadmin** que tiene permisos de **read/write** s
 ## Screenshots
 
 #### Instalar Plugin  WordPress
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/plugin-2-min.png" width="100%" alt="Plugin WordPress">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/plugin-2-min.png" width="100%" alt="Plugin WordPress">
 
 #### Plugin WordPress 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/plugin-1-min.png" width="100%" alt="Plugin WordPress">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/plugin-1-min.png" width="100%" alt="Plugin WordPress">
 
 #### Index
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/index.png" width="60%" alt="Index">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/index.png" width="60%" alt="Index">
 
 #### New
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/new.png" width="60%" alt="New">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/new.png" width="60%" alt="New">
 
 #### Edit
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/edit.png" width="60%" alt="Edit">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/edit.png" width="60%" alt="Edit">
 
 #### Error
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/error.png" width="60%" alt="Error">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/error.png" width="60%" alt="Error">
 
 #### Lista de post
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/cap-1-min.png" width="100%" alt="Error">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/cap-1-min.png" width="100%" alt="Error">
 
 #### Editar Post
 
-<img src="http://miguelzdanovich.com/github/demo-app-laravel/cap-2-min.png" width="100%" alt="Error">
+<img src="http://l3000446.ferozo.com/github/demo-app-laravel/cap-2-min.png" width="100%" alt="Error">
 
 
 ## License
