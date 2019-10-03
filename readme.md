@@ -2,7 +2,7 @@
 </p>
 
 <p  align="center">
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/1280px-WordPress_logo.svg.png" width="50%"  alt="Logo-WordPress">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/1280px-WordPress_logo.svg.png" width="50%"  alt="Logo-WordPress">
 </p>
 
 </hr>
@@ -184,13 +184,13 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
 #### Instalar Plugin WordPress
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/plugin-2-min.png"  width="100%"  alt="Plugin WordPress">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/plugin-2-min.png"  width="100%"  alt="Plugin WordPress">
 
   
 
 #### Plugin WordPress
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/plugin-1-min.png"  width="100%"  alt="Plugin WordPress">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/plugin-1-min.png"  width="100%"  alt="Plugin WordPress">
 
   
 
@@ -198,7 +198,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/index.png"  width="60%"  alt="Index">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/index.png"  width="60%"  alt="Index">
 
   
 
@@ -206,7 +206,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/new.png"  width="60%"  alt="New">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/new.png"  width="60%"  alt="New">
 
   
 
@@ -214,7 +214,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/edit.png"  width="60%"  alt="Edit">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/edit.png"  width="60%"  alt="Edit">
 
   
 
@@ -222,7 +222,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/error.png"  width="60%"  alt="Error">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/error.png"  width="60%"  alt="Error">
 
   
 
@@ -230,7 +230,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/cap-1-min.png"  width="100%"  alt="Error">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/cap-1-min.png"  width="100%"  alt="Error">
 
   
 
@@ -238,7 +238,7 @@ En el ejemplo uso el usuario **wpadmin** que tiene permisos de **read/write** si
 
   
 
-<img  src="http://l3000446.ferozo.com/github/demo-app-laravel/cap-2-min.png"  width="100%"  alt="Error">
+<img  src="http://c1391182.ferozo.com/github/demo-app-laravel/cap-2-min.png"  width="100%"  alt="Error">
 
   
   
